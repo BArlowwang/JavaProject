@@ -1,28 +1,78 @@
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 public class server {
-    static public void main(String[] args){
-        serverFrame s=new serverFrame();
+    static volatile boolean[] clientStatus = {false,false,false,false};
+    static synchronized void changStatus(int i,boolean b){
+        clientStatus[i]=b;
+    }
+    static public void main(String[] args) {
+        serverFrame s = new serverFrame();
         s.setVisible(true);
         try {
-            ServerSocket socket=new ServerSocket(10000);
+            ServerSocket socket = new ServerSocket(10000);
+            byte[] buf = new byte[128];
             while (true) {
                 //接收客户端Socket
                 Socket cs = socket.accept();
-                //提取客户端IP和端口
-                String ip = cs.getInetAddress().getHostAddress();
-                int port = cs.getPort();
+                InputStream in = cs.getInputStream();
+                int len = in.read(buf);
+                String info = new String(buf, 0, len);
+                char[] chars = info.toCharArray();
+                new Thread(new serverThread(cs, s, chars[0])).start();
 
-               // new Thread(new ServerThread(s, ss, ip, port, clientName,sf)).start();
             }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        catch (Exception e){
+
+    }
+}
+
+class serverThread implements Runnable {
+    private serverFrame sf;
+    private Socket cs;
+    private int id ;
+    byte[] buf = new byte[1024];
+    public serverThread( Socket s,serverFrame sf,int id) {
+        this.sf = sf;
+        this.cs=s;
+        this.id=id;
+    }
+
+    @Override
+    public void run() {
+        try {
+            while (true) {
+                    if (cs != null) {
+                        InputStream in = cs.getInputStream();
+                        int len = 0;
+                        try {
+                            len = in.read(buf);
+                            Thread.sleep(500);
+                            cs.getOutputStream().write("ACK".getBytes());
+                           // String info = new String(buf, 0, len);
+                        } catch (Exception ioe) {
+                            sf.setClientState((char) (id), false);
+                            server.changStatus(id - 'A', false);
+                            cs.close();
+                            ioe.printStackTrace();
+                            System.out.println((char)id);
+                            break;
+                        }
+                        sf.setClientState((char) (id), true);
+                    } else {
+                        if(server.clientStatus[id - 'A'])sf.setClientState((char) (id), false);
+                        System.out.println((char)id);
+                        break;
+                    }
+                }
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
@@ -33,13 +83,15 @@ class serverFrame extends JFrame {
     final int WIDTH = 300;
     final int HEIGHT = 180;
     private Panel p = new Panel();
-    public  serverFrame(){
+    public Socket[] csarr = new Socket[4];
+
+    public serverFrame() {
         setTitle("服务器");
         setResizable(false);
         //设置布局:不适用默认布局，完全自定义
         setLayout(null);
-        setSize(WIDTH,HEIGHT);
-        p.setBounds(30,30,240,120);
+        setSize(WIDTH, HEIGHT);
+        p.setBounds(30, 30, 240, 120);
         this.add(p);
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         addWindowListener(new WindowAdapter() {
@@ -49,9 +101,11 @@ class serverFrame extends JFrame {
             }
         });
     }
-    public void setClientState(char a,Boolean b){
-        p.setColor(a,b?Color.green:Color.red);
+
+    public void setClientState(char a, Boolean b) {
+        p.setColor(a, b ? Color.green : Color.red);
     }
+
     class Panel extends JPanel {
         final int PanelWIDTH = 240;
         final int PanelHEIGHT = 120;
@@ -61,16 +115,17 @@ class serverFrame extends JFrame {
         private JLabel pc;
         private JLabel pd;
         private Color[] color = new Color[4];
-        private Font f = new Font("Times New Roman",Font.BOLD,16);
+        private Font f = new Font("Times New Roman", Font.BOLD, 16);
+
         public Panel() {
             setResizable(false);
             //设置布局:不适用默认布局，完全自定义
             setLayout(null);
             setSize(PanelWIDTH, PanelHEIGHT);
-            pa = new JLabel("A",SwingConstants.CENTER);
-            pb = new JLabel("B",SwingConstants.CENTER);
-            pc = new JLabel("C",SwingConstants.CENTER);
-            pd = new JLabel("D",SwingConstants.CENTER);
+            pa = new JLabel("A", SwingConstants.CENTER);
+            pb = new JLabel("B", SwingConstants.CENTER);
+            pc = new JLabel("C", SwingConstants.CENTER);
+            pd = new JLabel("D", SwingConstants.CENTER);
 
             pa.setFont(f);
             pb.setFont(f);
@@ -98,7 +153,7 @@ class serverFrame extends JFrame {
         }
 
         public void setColor(char a, Color c) {
-            color[a-'A']=c;
+            color[a - 'A'] = c;
             updateUI();
 
         }

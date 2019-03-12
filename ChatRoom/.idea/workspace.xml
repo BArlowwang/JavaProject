@@ -5,26 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c2f0b53-edeb-4528-a314-bdc3d87bb66e" name="默认的" comment="program ChatRoom complete">
-      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/src/client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/src/server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ChatRoom/test/Print.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ChatRoom/test/Read.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ChatRoom/test/client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ChatRoom/test/server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/NetworkMonitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/out/production/NetworkMonitor/client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/out/production/NetworkMonitor/clientFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/out/production/NetworkMonitor/clientFrame$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/out/production/NetworkMonitor/clientFrame$Panel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/out/production/NetworkMonitor/clientFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/out/production/NetworkMonitor/server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/out/production/NetworkMonitor/serverFrame$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/out/production/NetworkMonitor/serverFrame$Panel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NetworkMonitor/out/production/NetworkMonitor/serverFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/META-INF/ChatRoom.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/runClient.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatRoom/runServer.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NetworkMonitor/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NetworkMonitor/src/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NetworkMonitor/src/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NetworkMonitor/src/server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ChatRoom/server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="607">
+              <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sendPacket#0;class#ServerThread#0" />
@@ -52,8 +54,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChatRoom/client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2925">
-              <caret line="130" column="25" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+            <state relative-caret-position="4175">
+              <caret line="180" column="6" selection-start-line="180" selection-start-column="6" selection-end-line="180" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="43" selection-start-line="43" selection-end-line="58" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,9 +115,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="213" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-49" />
+    <option name="y" value="502" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -114,10 +128,62 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ChatRoom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatRoom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatRoom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatRoom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+              <item name="client.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="ChatRoom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+              <item name="server.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="ChatRoom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatRoom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatRoom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="client.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552144522437" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552376597241" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -255,10 +321,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="92" y="171" width="1400" height="784" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.414307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37801608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计师" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -291,40 +356,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Palette" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.414307" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="设计师" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="运行" order="7" weight="0.32924962" />
-      <window_info anchor="bottom" id="查找" order="8" weight="0.32924962" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="消息" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="调试" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="控制板" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Palette" order="8" />
-    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -375,21 +406,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/client.java">
+    <entry file="file://$USER_HOME$/Desktop/src/ChatRoom/server.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/src/ChatRoom/server.java" />
     <entry file="file://$PROJECT_DIR$/src/ChatRoom/server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="607">
+          <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#sendPacket#0;class#ServerThread#0" />
@@ -400,8 +428,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChatRoom/client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="130" column="25" selection-start-line="130" selection-start-column="25" selection-end-line="130" selection-end-column="25" />
+        <state relative-caret-position="4175">
+          <caret line="180" column="6" selection-start-line="180" selection-start-column="6" selection-end-line="180" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="43" selection-start-line="43" selection-end-line="58" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
