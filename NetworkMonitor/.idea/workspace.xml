@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="861ef4bc-8099-45bf-94b2-a254325f866c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$Panel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame$Panel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame.class" afterDir="false" />
+    <list default="true" id="861ef4bc-8099-45bf-94b2-a254325f866c" name="Default Changelist" comment="complete NetworkMontior">
+      <change beforePath="$PROJECT_DIR$/../ChatRoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatRoom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$Panel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/clientThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame$Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame$Panel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkMonitor/serverThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,13 +30,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="306">
+              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="class#serverFrame#0" />
+                <element signature="e#3441#3442#0" expanded="true" />
+                <element signature="e#3499#3500#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,14 +44,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+            <state relative-caret-position="-169">
+              <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2798#2799#0" expanded="true" />
-                <element signature="e#2853#2854#0" expanded="true" />
-                <element signature="e#3943#3944#0" expanded="true" />
-                <element signature="e#3962#3963#0" expanded="true" />
+                <element signature="e#2082#2083#0" expanded="true" />
+                <element signature="e#2884#2885#0" expanded="true" />
+                <element signature="e#2909#2910#0" expanded="true" />
+                <element signature="e#4461#4462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,10 +77,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-50" />
+    <option name="y" value="501" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -85,30 +90,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="NetworkMonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetworkMonitor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetworkMonitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetworkMonitor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552389892564" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552408183232" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChatRoom" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunDashboard">
@@ -123,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.server">
+  <component name="RunManager" selected="Application.client">
     <configuration name="client" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client" />
       <module name="NetworkMonitor" />
@@ -182,7 +168,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.53665286" />
@@ -194,7 +180,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35530087" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35410765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40114614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,48 +232,29 @@
     <MESSAGE value="complete socket communication but has some unkonwn bugs" />
     <option name="LAST_COMMIT_MESSAGE" value="complete socket communication but has some unkonwn bugs" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/server.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/server.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="306">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="class#serverFrame#0" />
+            <element signature="e#3441#3442#0" expanded="true" />
+            <element signature="e#3499#3500#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+        <state relative-caret-position="-169">
+          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2798#2799#0" expanded="true" />
-            <element signature="e#2853#2854#0" expanded="true" />
-            <element signature="e#3943#3944#0" expanded="true" />
-            <element signature="e#3962#3963#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#2884#2885#0" expanded="true" />
+            <element signature="e#2909#2910#0" expanded="true" />
+            <element signature="e#4461#4462#0" expanded="true" />
           </folding>
         </state>
       </provider>
