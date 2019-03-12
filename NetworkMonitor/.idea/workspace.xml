@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="861ef4bc-8099-45bf-94b2-a254325f866c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/test/Print.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/test/Read.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/test/client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ChatRoom/out/production/ChatRoom/test/server.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkMonitor.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/client.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/clientFrame$2.class" afterDir="false" />
@@ -21,9 +12,6 @@
       <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame$Panel.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/NetworkMonitor/serverFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ChatRoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatRoom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552388993919" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552389892564" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
@@ -174,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552321520105</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="complete socket communication but has some unkonwn bugs">
+      <created>1552389877023</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552389877024</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -187,7 +182,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.53665286" />
@@ -248,7 +243,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project NetworkMonitor and complete UI for server and client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Project NetworkMonitor and complete UI for server and client" />
+    <MESSAGE value="complete socket communication but has some unkonwn bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete socket communication but has some unkonwn bugs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
